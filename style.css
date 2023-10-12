@@ -1,0 +1,195 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.hero-background{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.heading{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 40px;
+    letter-spacing: 0.5rem;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sub-heading{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    letter-spacing: 0.2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.profilePic{
+  margin-top: 40px;
+  height: 80px;
+  width: 70px;
+  border-radius: 50%;
+}
+.container2{
+  display: inline-block;
+  width:calc(100% - 0px);
+  text-align: center;
+  align-items: center;
+  block-size: 100%;
+  margin-bottom: 40px;
+}
+#skills{
+  margin-top: 40px;
+}
+h2{
+  font-weight: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: cadetblue;
+}
+h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: cadetblue;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#aboutMe{
+  display: inline-block;
+  width:calc(100% - 0px);
+  font-family: sans-serif;
+  max-width: 18cm;
+}
+p{
+  font-family: sans-serif;
+  text-align: justify;
+  margin: 0;
+}
+hr{
+  border: 2px dashed gainsboro;
+  border-radius: 5px
+}
+.grid-container{
+display: inline-grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+}
+.item1{
+  display: grid;
+  justify-content: right;
+  margin-right: 50px;
+}
+.item2{
+  margin-right: 300px;
+}
+.item3{
+  display: grid;
+  justify-content: right;
+  margin-right: 50px;
+}
+.item4{
+  margin-right: 300px;
+}
+.h3-2{
+margin-top: 0;
+}
+.resume{
+ text-align: center;
+ margin-bottom: 40px;
+}
+h4{
+  font-weight: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: cadetblue;
+}
+a{
+  font-weight: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: cadetblue;
+}
+a:hover{
+  color: violet;
+}
+
+
+.button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: cadetblue;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 140px;
+  margin-top: 30px;
+}
+button:hover{
+  background-color: violet;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+#getInTouch{
+  margin-top: 40px;
+}
+.contact{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+.paraNew{
+  text-align: center;
+}
+.footer{
+  width: 100%;
+  height: 20vh;
+  background-color: cadetblue;
+  text-align: center;
+  margin-top: 40px;
+  align-items: center;
+}
+.link{
+  color: #008080;
+  font-weight: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  padding-left: 20px;
+}
+.footerText{
+  text-align: center;
+color: white;
+font-weight: 0%;
+}
